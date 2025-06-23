@@ -26,25 +26,4 @@ let mycolor = Color.Red;
 function greetUser(user) {
     return `Hello, ${user.name}! You are ${user.age} years old.`;
 }
-let p1 = { x: 10, y: 20 };
-let p2 = { x: 30, y: 40 };
-let p3 = { x: 50, y: 60, getName() { } };
-// console.log(p1, p2, p3); // Output: { x: 10, y: 20 } { x: 30, y: 40 } { x: 50, y: 60 }
-class bottle {
-    constructor(name, capacity, color) {
-        this.name = name;
-        this.capacity = capacity;
-        this.color = color;
-    }
-}
-let b1 = new bottle("Water Bottle", 1000, "Blue");
-console.log(b1); // Output: bottle { name: 'Water Bottle', capacity: 1000, color: 'Blue' }
-class person {
-    constructor(name, age) {
-        this.name = name;
-        this.age = age;
-        console.log(`Name: ${this.name}, Age: ${this.age}`);
-    }
-}
-let p4 = new person("Pavan", 22); // Output: Name: Pavan, Age: 22
-console.log(p4); // Output: person { name: 'Pavan', age: 22 }
+// console.log(greetUser({ name: "Pavan", age: 22 }));

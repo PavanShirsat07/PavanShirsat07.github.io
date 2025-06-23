@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container1 {
+  position: relative;
+  text-align: center;
+  height: 500px;
+}
+
+/* Bottom left text */
+.nav-bar {
+  position: absolute;
+  top: 0;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* justify-content: space-around; */
+  align-items: center;
+  height: 60px;
+  background: rgb(4,147,204);
+  width: 65%;
+  left: 17%;
+  top: 10%;
+  border-radius: 50px;
+  color: white;
+}
+.nav-coltainer1{
+  font-size: x-large;
+  font-weight: bold;
+  padding-left: 30px;
+
+}
+.nav-container2{
+    display:flex;
+    font-size: large;
+    padding-top: 15px;
+}
+ul{
+    display: flex;
+    gap: 50px;
+}
+li{
+    list-style: none;
+    cursor: pointer;
+}
+.dropdown{
+  background: none;
+  color: white;
+  border: none;
+  font-size: 17px;
+}
+.nav-container3{
+  padding-top: 5px;
+}
+.container-text{
+  position: absolute;
+  left: 3%;
+  top: 37%;
+  font-size: 42px;
+  color:rgb(248, 244, 244);
+  font-weight: bold;
+   word-spacing: 10px; 
+}
+.container-text2{
+  position: absolute;
+  left: 3%;
+  top: 45%;
+  font-size: 42px;
+  color:rgb(248, 244, 244);
+  font-weight: bold;
+}
+.container-text3{
+  position: absolute;
+  left: 3%;
+  top: 60%;
+  font-size: x-large;
+  color:rgb(248, 244, 244);
+  font-weight: bold;
+}
+.container-text4{
+  position: absolute;
+  left: 3%;
+  top: 65%;
+  font-size: x-large;
+  color:rgb(248, 244, 244);
+  font-weight: bold;
+}
+.container-button{
+  position: absolute;
+  top:80%;
+  left: 3%;
+  color: white;
+
+}
+.container-button button{
+  padding: 10px 35px 10px 35px;
+  font-size: 20px;
+  background-color: rgb(4,147,204);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.client-data {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background-image: url('/PavanShirsat07.github.io/Practice_Project/Img/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 123, 180, 0.6); /* bluish transparent overlay */
+  z-index: 1;
+}
+
+.info {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.happy-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 180px;
+}
+
+.info-img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.smile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smile-text {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.smile-label {
+  font-size: 16px;
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+.slider{
+  height: 600px;
+  background: rgb(4,147,204);
+  color: white;
+}
+.slider-line{
+  font-size: 40px;
+  font-weight: 100;
+  opacity: 0.3;
+}
+.flip-horizontal {
+  transform: scaleY(-1);
+}
+.slider-text{
+  line-height: 2.5;
+  width: 700px;
+}
+.slider-heading{
+  margin-top: 25px;
+}
+.quates{
+  /* align-items: start; */
+  align-items: start;
+    margin: auto;
+    display: flex
+  
+}
+.slider-img{
+  width: 140px;
+  height: 140px;
+}
+.card-data{
+  width: 300px;
+  background-color: rgb(211, 208, 208);
+  height: 300px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.card-img{
+  padding: 20px;
+  background-color: rgb(4,147,204);
+}
+h5{
+  margin: 40px;
+}
+.card-row{
+  margin-top: 10px;
+}
+
+
+
+.contact{
+  margin-top: 40px;
+}
+.contact-line{
+  font-size: 40px;
+  color: rgb(4,147,204);
+  opacity: 0.3;
+}
+.contact-section{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.contact-text p{
+padding-left: 5px;
+}
+.line{
+  height: 2px;
+  background-color: gray;
+}
+.contact-text{
+  width: 300px;
+  align-items: start;
+  gap: 20px;
+}
+.sub-button{
+padding: 7px 25px 7px 25px;
+  font-size: 15px;
+  background-color: rgb(4,147,204);
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+.contact-name{
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+  color: rgb(71, 71, 71);
+}
+.first-name{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.send-btn{
+  background-color: rgb(4,147,204);
+  margin-top: 10px;
+  border-radius: 5%;
+  cursor: pointer;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text-address{
+      text-align: initial;
+      margin-left: 40px;
+      margin-bottom: 10px;
+      margin-top: 10px;
+}
